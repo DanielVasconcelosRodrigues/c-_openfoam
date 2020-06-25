@@ -58,7 +58,7 @@
 
 # 6 "<command-line>" 2
 # 1 "Make/options"
-EXE_INC = 	-I$(LIB_SRC)/finiteVolume/lnInclude 	-g
+EXE_INC = 	-I$(LIB_SRC)/finiteVolume/lnInclude -I$(LIB_SRC)/meshTools/lnInclude 	-g
 
 
 
